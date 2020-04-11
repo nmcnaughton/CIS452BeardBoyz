@@ -7,8 +7,6 @@ public class PlayerUI : Subject
     //Manages the UI of the player
 
     Observer healthBar;
-    private int currentHealth;
-    public int CurrentHealth { get { return currentHealth; } }
 
     void Start()
     {
