@@ -2,9 +2,16 @@
 using System.Collections;
 
 [RequireComponent (typeof (Controller2D))]
-public class Player : MonoBehaviour {
+public class Player : MonoBehaviour 
+{
+    public static Player instance;
+    [Header("Health")]
+    public int currentHealth;
+    public int maxHealth = 100;
 
-	public float maxJumpHeight = 4;
+
+    [Header("JumpStats")]
+    public float maxJumpHeight = 4;
 	public float minJumpHeight = 1;
 	public float timeToJumpApex = .4f;
 	float accelerationTimeAirborne = .2f;
@@ -31,7 +38,14 @@ public class Player : MonoBehaviour {
 	bool wallSliding;
 	int wallDirX;
 
-	void Start() {
+
+    private void Awake()
+    {
+        instance = this;
+
+    }
+    void Start() 
+    {
 		controller = GetComponent<Controller2D> ();
 
 		gravity = -(2 * maxJumpHeight) / Mathf.Pow (timeToJumpApex, 2);
@@ -39,7 +53,8 @@ public class Player : MonoBehaviour {
 		minJumpVelocity = Mathf.Sqrt (2 * Mathf.Abs (gravity) * minJumpHeight);
 	}
 
-	void Update() {
+	void Update() 
+    {
 		CalculateVelocity ();
 		HandleWallSliding ();
 
