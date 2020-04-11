@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class GameManager : SingletonClass<GameManager>
 {
-
-    public void 
-
+    public int currentHealth = 10;
+    public int maxHealth = 10;
 }

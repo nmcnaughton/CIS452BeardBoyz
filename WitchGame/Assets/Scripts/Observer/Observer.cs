@@ -2,10 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public abstract class Observer<T> : MonoBehaviour where T : Component
+public abstract class Observer : MonoBehaviour
 {
-    void OnNotify()
-    {
-
-    }
+    public abstract void OnNotify();
 }

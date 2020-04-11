@@ -2,25 +2,25 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public abstract class Subject<T> : MonoBehaviour where T : Component
+public abstract class Subject : MonoBehaviour
 {
-    List<IObserver> observers;
+    List<Observer> observers = new List<Observer>();
 
-    public void AddObserver(IObserver observer)
+    public virtual void AddObserver(Observer observer)
     {
         observers.Add(observer);
     }
 
-    public void Notify()
+    public virtual void Notify()
     {
-        foreach (IObserver ob in observers)
+        foreach (Observer ob in observers)
         {
             ob.OnNotify();
         }
     }
 
-    public void RemoveObserver(IObserver observer)
+    public virtual void RemoveObserver(Observer observer)
     {
-        throw new System.NotImplementedException();
+        observers.Remove(observer);
     }
 }
