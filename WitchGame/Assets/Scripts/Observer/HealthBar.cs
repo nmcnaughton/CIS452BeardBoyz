@@ -2,10 +2,12 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class GameManager : SingletonClass<GameManager>
+public class HealthBar : MonoBehaviour, IObserver
 {
-
-
+    public void OnNotify()
+    {
+        throw new System.NotImplementedException();
+    }
 
     // Start is called before the first frame update
     void Start()
