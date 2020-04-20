@@ -4,5 +4,6 @@ using UnityEngine;
 
 public interface IRangedBehvior 
 {
-  
+    void ProjectileFactory();
+
 }
