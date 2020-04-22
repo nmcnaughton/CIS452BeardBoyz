@@ -19,6 +19,7 @@ public class HealthBar : Observer
     void Start()
     {
         FindHealthBar();
+        healthBar.transform.GetChild(0).GetComponent<Image>().fillAmount = (float)GameManager.Instance.currentHealth / GameManager.Instance.maxHealth;
     }
 
     // Update is called once per frame

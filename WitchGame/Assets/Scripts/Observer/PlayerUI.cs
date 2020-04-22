@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 
 public class PlayerUI : Subject
 {
@@ -8,11 +9,21 @@ public class PlayerUI : Subject
 
     Observer healthBar;
 
+    Observer scoreText;
+
+    GameManager manager;
+
+    public UnityEvent scoreEvent;
+
     void Start()
     {
-        healthBar = new HealthBar();
+        manager = GameManager.Instance;
+        healthBar = new HealthBar();        
 
         AddObserver(healthBar);
+
+        scoreEvent = new UnityEvent();
+        scoreEvent.AddListener(Notify);
     }
 
     void Update()
