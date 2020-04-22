@@ -2,13 +2,12 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Enemy : MonoBehaviour
+public class ProjectileEnemy : MonoBehaviour
 {
+    public GameObject projectile;
+    public float fireRate = 1f;
+    float nextFire;
 
-    public GameObject bullet;
-    public float fireRate =1f;
-     float  nextFire;
-    
 
     void Start()
     {
@@ -17,7 +16,7 @@ public class Enemy : MonoBehaviour
 
     }
 
-    
+
     void Update()
     {
         CheckIfTimeToFire();
@@ -27,9 +26,9 @@ public class Enemy : MonoBehaviour
 
     void CheckIfTimeToFire()
     {
-        if(Time.time > nextFire)
+        if (Time.time > nextFire)
         {
-            Instantiate(bullet, transform.position, Quaternion.identity);
+            Instantiate(projectile, transform.position, Quaternion.identity);
             nextFire = Time.time + fireRate;
 
         }
