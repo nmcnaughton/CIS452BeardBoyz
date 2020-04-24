@@ -4,9 +4,9 @@ using UnityEngine;
 
 public class ProjectileFactory : MonoBehaviour
 {
-  
-  
-    protected float deathspeed { get; set; }
+
+    
+    protected float lifetime { get; set; }
     protected float moveSpeed { get; set; }
     public Rigidbody2D rb;
 
@@ -26,9 +26,9 @@ public class ProjectileFactory : MonoBehaviour
         if (col.gameObject.name.Equals("Player"))
         {
             Debug.Log("Player hit by enemy");
-            Destroy(gameObject);
+           
             GameManager.Instance.currentHealth--; //taking away health 
-            //Notify();
+            Invoke("Destroy", lifetime);
         }
     }
 
@@ -40,6 +40,11 @@ public class ProjectileFactory : MonoBehaviour
 
         moveDirection = (player.transform.position - transform.position).normalized * moveSpeed;
         rb.velocity = new Vector2(moveDirection.x, moveDirection.y);
-        Destroy(gameObject, deathspeed);
+        //Invoke("Destroy", lifetime);
+    }
+
+    private void Destroy()
+    {
+        gameObject.SetActive(false);
     }
 }

@@ -4,20 +4,21 @@ using UnityEngine;
 
 public class ProjectileEnemy : MonoBehaviour
 {
-    public GameObject projectile;
+    //public GameObject projectile;
     public float fireRate = 1f;
     float nextFire;
-
+    ObjectPooler objectPooler;
 
     void Start()
     {
+        objectPooler = ObjectPooler.instance;
         nextFire = Time.time;
 
-
     }
+   
 
 
-    void Update()
+    void FixedUpdate()
     {
         CheckIfTimeToFire();
     }
@@ -28,7 +29,8 @@ public class ProjectileEnemy : MonoBehaviour
     {
         if (Time.time > nextFire)
         {
-            Instantiate(projectile, transform.position, Quaternion.identity);
+            //Instantiate(projectile, transform.position, Quaternion.identity);
+            objectPooler.SpawnFromPool("EnemyProjectile1", transform.position, Quaternion.identity);
             nextFire = Time.time + fireRate;
 
         }
