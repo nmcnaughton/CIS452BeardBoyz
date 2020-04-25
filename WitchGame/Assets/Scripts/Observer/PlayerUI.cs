@@ -18,9 +18,11 @@ public class PlayerUI : Subject
     void Start()
     {
         manager = GameManager.Instance;
-        healthBar = new HealthBar();        
+        healthBar = new HealthBar();
+        scoreText = new Score();
 
         AddObserver(healthBar);
+        AddObserver(scoreText);
 
         scoreEvent = new UnityEvent();
         scoreEvent.AddListener(Notify);

@@ -17,18 +17,26 @@ public class ProjectileFactory : MonoBehaviour
     void Start()
     {
         FindPlayer();
-
-
     }
 
     void OnTriggerEnter2D(Collider2D col)
     {
-        if (col.gameObject.name.Equals("Player"))
+        if (col.gameObject.CompareTag("Umbrella"))
+        {
+            Debug.Log("Umbrella hit");
+            Destroy();
+            //Invoke("Destroy", lifetime);
+        }
+
+        else if (col.gameObject.CompareTag("Player"))
         {
             Debug.Log("Player hit by enemy");
            
             GameManager.Instance.currentHealth--; //taking away health 
-            Invoke("Destroy", lifetime);
+            GameObject.FindGameObjectWithTag("UI").GetComponent<PlayerUI>().Notify();
+
+            Destroy();
+            //Invoke("Destroy", lifetime);
         }
     }
 
@@ -40,7 +48,7 @@ public class ProjectileFactory : MonoBehaviour
 
         moveDirection = (player.transform.position - transform.position).normalized * moveSpeed;
         rb.velocity = new Vector2(moveDirection.x, moveDirection.y);
-        //Invoke("Destroy", lifetime);
+        Invoke("Destroy", lifetime);
     }
 
     private void Destroy()
