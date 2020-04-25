@@ -1,0 +1,565 @@
+fileFormatVersion: 2
+guid: 74cb89df2a644d74fbbf210c00d214fe
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6037148484888798030
+    second: Artboard 17_0
+  - first:
+      213: -2060090403742044100
+    second: Artboard 17_1
+  - first:
+      213: 4797631617923343737
+    second: Artboard 17_2
+  - first:
+      213: 1263889878254731156
+    second: Artboard 17_3
+  - first:
+      213: -4176827983024405410
+    second: Artboard 17_4
+  - first:
+      213: 1894373350045762362
+    second: Artboard 17_5
+  - first:
+      213: 7963070606542699507
+    second: Artboard 17_6
+  - first:
+      213: 7321313084680336668
+    second: Artboard 17_7
+  - first:
+      213: 8734841743737139348
+    second: Artboard 17_8
+  - first:
+      213: -4810737688512218420
+    second: Artboard 17_9
+  - first:
+      213: 5839359095384850384
+    second: Artboard 17_10
+  - first:
+      213: -4276903976809434003
+    second: Artboard 17_11
+  - first:
+      213: 3519735450672181961
+    second: Artboard 17_12
+  - first:
+      213: -6099037052441321514
+    second: Artboard 17_13
+  - first:
+      213: -4184522801366230972
+    second: Artboard 17_14
+  - first:
+      213: -2126979377500199129
+    second: Artboard 17_15
+  - first:
+      213: 9205730338116557360
+    second: Artboard 17_16
+  - first:
+      213: -2229545500759320535
+    second: Artboard 17_17
+  - first:
+      213: 1525623948089901894
+    second: Artboard 17_18
+  - first:
+      213: 393046584147634678
+    second: Artboard 17_19
+  - first:
+      213: -6555995815052103994
+    second: Artboard 17_20
+  - first:
+      213: 5031568035388764427
+    second: Artboard 17_21
+  - first:
+      213: -5142863417268801225
+    second: Artboard 17_22
+  - first:
+      213: 5316992216163942590
+    second: Artboard 17_23
+  - first:
+      213: 8614786605717181155
+    second: Artboard 17_24
+  - first:
+      213: -1439143669412139141
+    second: Artboard 17_25
+  - first:
+      213: 1716170327209421729
+    second: Artboard 17_26
+  - first:
+      213: -4693346405202862691
+    second: Artboard 17_27
+  - first:
+      213: 494389978647649735
+    second: Artboard 17_28
+  - first:
+      213: -3258400322059357061
+    second: Artboard 17_29
+  - first:
+      213: -7243920678984822050
+    second: Artboard 17_30
+  - first:
+      213: -3325312149573466061
+    second: Artboard 17_31
+  - first:
+      213: -2114529796694381876
+    second: Artboard 17_32
+  - first:
+      213: 7912914277268877443
+    second: Artboard 17_33
+  - first:
+      213: 5039758141008203299
+    second: Artboard 17_34
+  - first:
+      213: -5851926344238971399
+    second: Artboard 17_35
+  - first:
+      213: -2435363478470542450
+    second: Artboard 17_36
+  - first:
+      213: 8522618178112700230
+    second: Artboard 17_37
+  - first:
+      213: -7760544374278684565
+    second: Artboard 17_38
+  - first:
+      213: 1671228783114126108
+    second: Artboard 17_39
+  - first:
+      213: -5318527594759509189
+    second: Artboard 17_40
+  - first:
+      213: 7069691446504427145
+    second: Artboard 17_41
+  - first:
+      213: -3012537307316606245
+    second: Artboard 17_42
+  - first:
+      213: -337846930889867680
+    second: Artboard 17_43
+  - first:
+      213: -2613183923122682312
+    second: Artboard 17_44
+  - first:
+      213: 4260187436984380578
+    second: Artboard 17_45
+  - first:
+      213: -393093484823769964
+    second: Artboard 17_46
+  - first:
+      213: -7403775817734896361
+    second: Artboard 17_47
+  - first:
+      213: 6888317720760318828
+    second: Artboard 17_48
+  - first:
+      213: -7441924375843547021
+    second: Artboard 17_49
+  - first:
+      213: 1807003071552795211
+    second: Artboard 17_50
+  - first:
+      213: 6716098996042449190
+    second: Artboard 17_51
+  - first:
+      213: 3230909122658007310
+    second: Artboard 17_52
+  - first:
+      213: 1508670227751335926
+    second: Artboard 17_53
+  - first:
+      213: 3658415745376418309
+    second: Artboard 17_54
+  - first:
+      213: -4553456653760312936
+    second: Artboard 17_55
+  - first:
+      213: 7472089088726168938
+    second: Artboard 17_56
+  - first:
+      213: -2700527243204256327
+    second: Artboard 17_57
+  - first:
+      213: 1817613203845150068
+    second: Artboard 17_58
+  - first:
+      213: 7626421365742628415
+    second: Artboard 17_59
+  - first:
+      213: 2314321652801746238
+    second: Artboard 17_60
+  - first:
+      213: -6640138212704295738
+    second: Artboard 17_61
+  - first:
+      213: 7593048383734088508
+    second: Artboard 17_62
+  - first:
+      213: 1139930381080339877
+    second: Artboard 17_63
+  - first:
+      213: -4630812762263588305
+    second: Artboard 17_64
+  - first:
+      213: -7859728185234389105
+    second: Artboard 17_65
+  - first:
+      213: -3384363036291285481
+    second: Artboard 17_66
+  - first:
+      213: 5042573374067916869
+    second: Artboard 17_67
+  - first:
+      213: -7019457563985332711
+    second: Artboard 17_68
+  - first:
+      213: -7729155658907846209
+    second: Artboard 17_69
+  - first:
+      213: -3100448695079763644
+    second: Artboard 17_70
+  - first:
+      213: 8670827531237906154
+    second: Artboard 17_71
+  - first:
+      213: -4320711951129550392
+    second: Artboard 17_72
+  - first:
+      213: 1582481604372422291
+    second: Artboard 17_73
+  - first:
+      213: -2760624942107689074
+    second: Artboard 17_74
+  - first:
+      213: 7444858109332050686
+    second: Artboard 17_75
+  - first:
+      213: 3666951204003372525
+    second: Artboard 17_76
+  - first:
+      213: -8271805578801241252
+    second: Artboard 17_77
+  - first:
+      213: 2008080830143317747
+    second: Artboard 17_78
+  - first:
+      213: -1982867305754868760
+    second: Artboard 17_79
+  - first:
+      213: 4544755855173979173
+    second: Artboard 17_80
+  - first:
+      213: -41492642928447061
+    second: Artboard 17_81
+  - first:
+      213: -6560140395656238411
+    second: Artboard 17_82
+  - first:
+      213: 1038977140711239146
+    second: Artboard 17_83
+  - first:
+      213: -2426998566161595569
+    second: Artboard 17_84
+  - first:
+      213: 4648270545673686462
+    second: Artboard 17_85
+  - first:
+      213: 8964449308541486524
+    second: Artboard 17_86
+  - first:
+      213: 4406289528111931661
+    second: Artboard 17_87
+  - first:
+      213: 216261108509578613
+    second: Artboard 17_88
+  - first:
+      213: -2803059177104957826
+    second: Artboard 17_89
+  - first:
+      213: 363748208372779983
+    second: Artboard 17_90
+  - first:
+      213: 2045694020909336841
+    second: Artboard 17_91
+  - first:
+      213: -8590812302943641093
+    second: Artboard 17_92
+  - first:
+      213: 2247497446462119391
+    second: Artboard 17_93
+  - first:
+      213: 3660621605953917576
+    second: Artboard 17_94
+  - first:
+      213: 2266802858960568342
+    second: Artboard 17_95
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 64
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Artboard 17_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 65
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bc5aed607db73ca0800000000000000
+      internalID: -6037148484888798030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Artboard 17_1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 65
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c30b3cf41b61963e0800000000000000
+      internalID: -2060090403742044100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Artboard 17_2
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 65
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 975e08d998c949240800000000000000
+      internalID: 4797631617923343737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Artboard 17_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49fb59cd52d3a8110800000000000000
+      internalID: 1263889878254731156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Artboard 17_4
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 1
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e544be7441de806c0800000000000000
+      internalID: -4176827983024405410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Artboard 17_5
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a33c179668a2a4a10800000000000000
+      internalID: 1894373350045762362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
