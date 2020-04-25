@@ -33,7 +33,6 @@ public class Pointing : MonoBehaviour
         while(pointing)
         {
             mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-            Debug.Log("pointing");
             if (character == null || umbrella == null)
             {
                 character = GameObject.FindGameObjectWithTag("Player");
@@ -43,7 +42,6 @@ public class Pointing : MonoBehaviour
             pointDirection.Normalize();
 
             umbrella.transform.position = character.transform.position + new Vector3(pointDirection.x, pointDirection.y);
-            Debug.Log(umbrella.transform.position);
             yield return null;
         }
     }
