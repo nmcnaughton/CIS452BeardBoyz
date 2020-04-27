@@ -12,6 +12,9 @@ public class Projectile1 : ProjectileFactory
         this.lifetime = 2.0f;
         FindPlayer();
     }
-    
+    void Update()
+    {
+        FindPlayer();
+    }
    
 }

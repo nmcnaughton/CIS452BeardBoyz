@@ -32,8 +32,8 @@ public class ProjectileFactory : MonoBehaviour
         {
             Debug.Log("Player hit by enemy");
            
-            GameManager.Instance.currentHealth--; //taking away health 
-            GameObject.FindGameObjectWithTag("UI").GetComponent<PlayerUI>().Notify();
+            //GameManager.Instance.currentHealth--; //taking away health 
+            //GameObject.FindGameObjectWithTag("UI").GetComponent<PlayerUI>().Notify();
 
             Destroy();
             //Invoke("Destroy", lifetime);
