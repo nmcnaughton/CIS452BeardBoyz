@@ -21,8 +21,9 @@ public abstract class PickupSuperClass : MonoBehaviour
     public void PickupObject() //tempmethod
     {
         PlaySoundFX();
-        UpdatePlayerHUD();
         DestroyObject();
+        UpdatePlayerHUD();
+        
     }
 
     public abstract void PlaySoundFX();
