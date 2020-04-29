@@ -218,7 +218,7 @@ public class Controller2D : RaycastController {
 
 	}
 
-	void ResetFallingThroughPlatform() {
+	public void ResetFallingThroughPlatform() {
 		collisions.fallingThroughPlatform = false;
 	}
 

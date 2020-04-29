@@ -12,14 +12,14 @@ public class Score : Observer
         {
             FindScore();
         }
-        score.transform.GetChild(0).GetComponent<Text>().text = GameManager.Instance.currentScore.ToString();
+        score.transform.GetChild(0).GetComponent<Text>().text = "Score: " + GameManager.Instance.currentScore.ToString();
     }
 
     // Start is called before the first frame update
     void Start()
     {
         FindScore();
-        score.transform.GetChild(0).GetComponent<Text>().text = GameManager.Instance.currentScore.ToString();
+        score.transform.GetChild(0).GetComponent<Text>().text = "Score: " + GameManager.Instance.currentScore.ToString();
     }
 
     // Update is called once per frame
