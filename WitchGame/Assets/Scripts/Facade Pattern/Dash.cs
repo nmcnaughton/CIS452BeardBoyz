@@ -24,7 +24,8 @@ public class Dash : MonoBehaviour
 
         dashDirection = (mousePos - new Vector2(character.transform.position.x, character.transform.position.y));
         dashDirection.Normalize();
-        character.GetComponent<Rigidbody2D>().AddForce(20f * dashDirection, ForceMode2D.Impulse);
+        character.GetComponent<Rigidbody2D>().AddForce(1f * dashDirection, ForceMode2D.Impulse);
+        character.GetComponent<Controller2D>().ResetFallingThroughPlatform();
     }
     
 }
