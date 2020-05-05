@@ -1,17 +1,18 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.SceneManagement;
 
-public class KillPlane : MonoBehaviour
+public class SpawnEnemyTrigger : MonoBehaviour
 {
+    public GameObject Enemy;
+
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.tag == "Player")
         {
-            SceneManager.LoadScene("level1");
-            Debug.Log("Player fell off Map");
-            
+            Debug.Log("Spawn Enemy1");
+            Enemy.SetActive(true);
+
         }
     }
 }

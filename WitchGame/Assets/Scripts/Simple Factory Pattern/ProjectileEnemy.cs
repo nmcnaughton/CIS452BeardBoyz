@@ -8,6 +8,7 @@ public class ProjectileEnemy : MonoBehaviour
     public float fireRate = 1f;
     float nextFire;
     ObjectPooler objectPooler;
+    public string projectile;
 
     void Start()
     {
@@ -30,7 +31,7 @@ public class ProjectileEnemy : MonoBehaviour
         if (Time.time > nextFire)
         {
             //Instantiate(projectile, transform.position, Quaternion.identity);
-            objectPooler.SpawnFromPool("EnemyProjectile1", transform.position, Quaternion.identity);
+            objectPooler.SpawnFromPool(projectile, transform.position, Quaternion.identity);
             nextFire = Time.time + fireRate;
 
         }

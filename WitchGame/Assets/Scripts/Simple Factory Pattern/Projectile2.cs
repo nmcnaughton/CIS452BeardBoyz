@@ -9,6 +9,11 @@ public class Projectile2 : ProjectileFactory
 
         this.moveSpeed = 5f;
         this.lifetime = .3f;
+       
+    }
+
+    void Update()
+    {
         FindPlayer();
     }
 }
