@@ -13,8 +13,9 @@ public class PickupObject : PickupSuperClass
     }
     public override void UpdatePlayerHUD()
     {
-        Debug.Log("add score 1");
+        Debug.Log("add score ");
         GameManager.Instance.currentScore++;
+        Debug.Log(GameManager.Instance.currentScore);
         GameObject.FindGameObjectWithTag("UI").GetComponent<PlayerUI>().scoreEvent.Invoke();
     }
     public override void DestroyObject()

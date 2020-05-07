@@ -7,8 +7,8 @@ public class Projectile2 : ProjectileFactory
     void Start()
     {
 
-        this.moveSpeed = 5f;
-        this.lifetime = .3f;
+        this.moveSpeed = 7f;
+        this.lifetime = 5f;
        
     }
 
