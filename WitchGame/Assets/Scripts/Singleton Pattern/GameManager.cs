@@ -43,6 +43,11 @@ public class GameManager : SingletonClass<GameManager>
         {
             WinGame();
         }
+
+        if (currentHealth <= 0)
+        {
+            ResetGame();
+        }
     }
 
     void Pause()
