@@ -9,6 +9,7 @@ public class ProjectileEnemy : MonoBehaviour
     float nextFire;
     ObjectPooler objectPooler;
     public string projectile;
+    
 
     void Start()
     {
@@ -36,4 +37,8 @@ public class ProjectileEnemy : MonoBehaviour
 
         }
     }
+
+
+
+    
 }
